@@ -1,4 +1,4 @@
-FROM python:3.11.9-alpine
+FROM python:3.10-slim
 
 WORKDIR /test-agent
 
