@@ -8,8 +8,6 @@ PORT = "5000"
 # rancher 上服务名，自行修改
 NAME = "Temp_TEST_AGENT"
 
-URL_PREFIX = "oa-agent"
-
 # consul 配置
 CONSUL_HOST = "39.98.80.78"
 
