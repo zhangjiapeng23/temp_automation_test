@@ -8,4 +8,4 @@ RUN pip3 config set global.index-url https://mirrors.aliyun.com/pypi/simple/ &&\
 
 COPY . .
 
-CMD [ "flask", "--app" , "easy_test:create", "run"]
+CMD [ "flask", "--app" , "easy_test:create_app", "run"]
