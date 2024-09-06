@@ -8,4 +8,4 @@ RUN pip3 install -r requirements.txt
 COPY . .
 
 EXPOSE 5000
-CMD [ "flask", "--app" , "easy_test:create_app", "run"]
+CMD [ "gunicorn", "-w", "1", "-b", ":5000", "easy_test:create_app()"]
