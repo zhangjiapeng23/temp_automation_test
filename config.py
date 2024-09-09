@@ -1,19 +1,16 @@
 
 DEBUG = False
 
-HOST = "0.0.0.0"
+FLASK_SERVICE_HOST = "0.0.0.0"
 
-PORT = "5000"
-
-# rancher 上服务名，自行修改
-NAME = "Temp_TEST_AGENT"
+FLASK_SERVICE_PORT = "5000"
 
 # consul 配置
-CONSUL_HOST = "10.70.2.40"
+FLASK_CONSUL_HOST = "39.98.80.78"
 
-CONSUL_PORT = "8500"
+FLASK_CONSUL_PORT = "8500"
 
-CONSUL_TAGS = []
+FLASK_CONSUL_TAGS = ['urlprefix-/api/agent']
 
-# 平台服务名
-SERVICE_NAME = 'oa-test-agent'
+# rancher 上服务名，自行修改
+FLASK_SERVICE_NAME = 'webll-oa-test-agent'
