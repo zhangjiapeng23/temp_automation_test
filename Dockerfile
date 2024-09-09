@@ -8,5 +8,5 @@ RUN pip3 config set global.index-url https://pypi.mirrors.ustc.edu.cn/simple/ &&
 
 COPY . .
 
-EXPOSE 5000
-CMD [ "gunicorn", "-w", "1", "-b", ":5000", "easy_test:create_app()"]
+EXPOSE 8839
+CMD [ "gunicorn", "-w", "1", "-b", ":8839", "easy_test:create_app()"]
