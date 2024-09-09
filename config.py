@@ -9,11 +9,11 @@ PORT = "5000"
 NAME = "Temp_TEST_AGENT"
 
 # consul 配置
-CONSUL_HOST = "39.98.80.78"
+CONSUL_HOST = "10.70.2.40"
 
 CONSUL_PORT = "8500"
 
 CONSUL_TAGS = []
 
 # 平台服务名
-SERVICE_NAME = 'oa-test-center'
+SERVICE_NAME = 'oa-test-agent'
