@@ -17,7 +17,7 @@ colorama==0.4.6
 consulate-fork==0.7.1
 cryptography==43.0.1
 docutils==0.21.2
-easy-automation-test==0.0.8.3
+easy-automation-test==0.0.8.5
 exceptiongroup==1.2.2
 Faker==28.4.1
 flask==3.0.3
